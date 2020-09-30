@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>ریاضیات</title>
+</head>
+
+<body>
+    <div class="big">
+        <div class="med">
+            <h6>لطفا دو عدد وارد کنید</h6>
+        <input type="number" id="fir"></input>
+        <input type="number" id="sec"></input><br>
+        <h6> یکی از اعمال ( + - / * ) را انتخاب کنید</h6>
+        <input type="text" id="typeinp">
+        <button type="button" onclick="inpthree()">اعمال</button><br>
+    </div>
+    <h6>یکی از اعمال زیر را انتخاب کنید</h6>
+        <div class="smal">
+            <button type="button" class="" onclick="jam()" id="btn">جمع</button><br>
+            <button type="button" class="" onclick="men()" id="btn2">تفریق</button><br>
+            <button type="button" class="" onclick="zarb()" id="btn3">ضرب</button><br>
+            <button type="button" class="" onclick="taq()" id="btn4">تقسیم</button><br>
+        </div>
+       <p id="par"></p>
+</body>
+<script src="myjs.js"></script>
+
+</html>
